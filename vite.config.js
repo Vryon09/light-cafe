@@ -8,4 +8,5 @@ export default defineConfig({
   server: {
     host: true, // Allows access from the network
   },
+  base: "/light-cafe",
 });
