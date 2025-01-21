@@ -1,0 +1,40 @@
+.container {
+  /* margin: 6rem 0; */
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 648px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  color: white;
+}
+
+.socials > * {
+  cursor: pointer;
+  background-color: #212529;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .socials {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

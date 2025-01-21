@@ -1,0 +1,47 @@
+.container {
+  position: fixed;
+  width: 100%;
+  background-color: #faf9f6;
+  top: -50%;
+  left: 0;
+  padding: 1rem 1rem 2rem 1rem;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+.close {
+  font-size: 2rem;
+  float: right;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.options button {
+  flex: 1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.cover {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 150dvh;
+  top: 0;
+  left: 0;
+  background-color: hsl(0, 0%, 2%, 0.5);
+  transition: 0.5s;
+}
