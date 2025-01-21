@@ -5,7 +5,7 @@ function Hero({ scrollToRef, menuSection }) {
     <section className={styles.hero}>
       <div className={styles.heroImg}>
         <img
-          src="./light-cafe/coffee-blender-2.jpg"
+          src={`${import.meta.env.BASE_URL}/coffee-blender-2.jpg`}
           alt="coffee-blender"
           loading="lazy"
         />
