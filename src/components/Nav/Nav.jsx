@@ -18,7 +18,7 @@ function Nav({
         <div className={styles.logoWrapper}>
           <img
             className={styles.logo}
-            src="./cafe-logo.png"
+            src="./light-cafe/cafe-logo.png"
             alt="Coffee shop"
           />
         </div>

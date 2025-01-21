@@ -4,7 +4,11 @@ function Hero({ scrollToRef, menuSection }) {
   return (
     <section className={styles.hero}>
       <div className={styles.heroImg}>
-        <img src="./coffee-blender-2.jpg" alt="coffee-blender" loading="lazy" />
+        <img
+          src="./light-cafe/coffee-blender-2.jpg"
+          alt="coffee-blender"
+          loading="lazy"
+        />
       </div>
       <div className={styles.heroText}>
         <h1>Start your day with a cup of joy</h1>
