@@ -21,7 +21,7 @@ function Nav({
             src={`${import.meta.env.BASE_URL}/cafe-logo.png`}
             alt="Coffee shop"
           /> */}
-          <h1>
+          <h1 className={styles.logo}>
             Logo <br /> Here
           </h1>
         </div>
