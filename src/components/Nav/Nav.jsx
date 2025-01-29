@@ -16,11 +16,14 @@ function Nav({
     <nav className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.logoWrapper}>
-          <img
+          {/* <img
             className={styles.logo}
             src={`${import.meta.env.BASE_URL}/cafe-logo.png`}
             alt="Coffee shop"
-          />
+          /> */}
+          <h1>
+            Logo <br /> Here
+          </h1>
         </div>
 
         {/* <div className={styles.menu}>

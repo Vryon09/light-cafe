@@ -12,9 +12,11 @@
   width: 100%;
 }
 
-/* .logoWrapper {
-  background-color: blue;
-} */
+.logoWrapper {
+  background-color: hsl(0, 0%, 90%);
+  padding: 1.5em;
+  border-radius: 50%;
+}
 
 .logo {
   width: 100px;
